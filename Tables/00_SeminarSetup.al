@@ -20,8 +20,7 @@ table 123456700 "CSD Seminar Setup"
         field(40; "Posted Seminar Reg. Nos."; Code[20])
         {
             Caption = 'Posted Seminar Reg. Nos.';
-            DataClassification = ToBeClassified;
-
+            TableRelation = "No. Series";
         }
     }
 

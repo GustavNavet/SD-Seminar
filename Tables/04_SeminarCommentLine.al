@@ -1,7 +1,8 @@
 table 123456704 "CSD Seminar Comment Line"
 {
     DataClassification = ToBeClassified;
-    
+    Caption='Seminar Comment Line'; 
+    LookupPageId = "CSD Comment Sheet"; 
     fields
     {
         field(10;"Table Name";Option)

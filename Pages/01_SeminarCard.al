@@ -49,9 +49,9 @@ page 123456701 "Seminar Card"
             {
                 action("Co&mments")
                 {
-                    //RunObject=page "CSD Seminar Comment Sheet";
-                    //RunPageLink = "Table Name" =const(Seminar),"No."=field("No."); 
-                    //Image = Comment;
+                    RunObject=page "CSD Comment Sheet";
+                    RunPageLink = "Table Name" =const(Seminar),"No."=field("No."); 
+                    Image = Comment;
                 }
             }
         }

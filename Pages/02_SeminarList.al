@@ -56,10 +56,9 @@ page 123456702 "CSD Seminar List"
             {
                 action("Co&mments")
                 {
-                    //RunObject=page "CSD Seminar Comment Sheet"; 
-                    //RunPageLink = "Table  
-                    //Name"=const(Seminar),"No."=field("No."); 
-                    //Image = Comment; 
+                    RunObject = page "CSD Comment Sheet";
+                    RunPageLink = "Table Name" = const (Seminar), "No." = field ("No.");
+                    Image = Comment;
                 }
             }
         }
